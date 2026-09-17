@@ -73,11 +73,7 @@ breaks an existing command line lands in a minor release â€” v0.3.0 to v0.4.0 â€
 and never in a patch. From v1.0.0 onwards such a change lands in a major
 release, and never in a minor or a patch.
 
-- **`--name` now names the One ROM, not the configuration.** It is an alias for
-  `--instance-name` on `program` and `firmware build`, where it was an alias for
-  `--config-name`. A command line using `--name` still runs, and names the
-  device instead of the configuration it is building. Spell `--config-name` in
-  full for the old meaning.
+None in this release.
 
 Every release's breaking changes are collected in
 [Appendix: Breaking Change History](#appendix-breaking-change-history), at the
