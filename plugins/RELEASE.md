@@ -39,9 +39,10 @@ git commit -m "Update plugin binaries and manifests"
 git push
 ```
 
-Tag the release with the new version number, and push the tag.  For example:
+Tag the release in `one-rom`.  Tags are signed, so they take a message:
 
 ```bash
-git tag plugin-system-usb-v0.1.0
+cd ../one-rom
+git tag -s -a plugin-system-usb-v0.1.0 -m "USB system plugin v0.1.0"
 git push origin plugin-system-usb-v0.1.0
 ```
